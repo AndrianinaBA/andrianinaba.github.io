@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Andrianina Razafindrakoto | Mathematics &amp; Machine Learning</title>
+  <meta name="description" content="Mathematician and machine learning researcher (MSc AI for Science, AIMS South Africa). Kernel methods, non-parametric hypothesis testing, Quasi-Monte Carlo.">
+  <meta name="author" content="Mialimanana Andrianina Bien-Aimé Razafindrakoto">
+  <link rel="canonical" href="https://andrianinaba.github.io/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+  <!-- Social preview -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Andrianina Razafindrakoto | Mathematics &amp; Machine Learning">
+  <meta property="og:description" content="Kernel methods, non-parametric hypothesis testing and the mathematical foundations of machine learning.">
+  <meta property="og:image" content="https://andrianinaba.github.io/assets/img/portrait.jpg">
+  <meta property="og:url" content="https://andrianinaba.github.io/">
+  <meta name="twitter:card" content="summary">
+
+  <!-- Apply saved theme before first paint to avoid a flash -->
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem("theme");
+        if (!t) t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        document.documentElement.setAttribute("data-theme", t);
+      } catch (e) {}
+    })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===================== NAVIGATION ===================== -->
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#top">Andrianina Razafindrakoto</a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#distinctions">Distinctions</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="icon-btn" id="theme-toggle" type="button" aria-label="Toggle dark mode">
+          <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+          <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        </button>
+        <button class="icon-btn menu-btn" id="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ===================== HERO ===================== -->
+    <div class="hero" id="top">
+      <div class="container hero-grid">
+        <img class="portrait" src="assets/img/portrait.jpg" width="720" height="900"
+             alt="Portrait of Andrianina Razafindrakoto" fetchpriority="high">
+        <div>
+          <span class="eyebrow">Open to PhD opportunities in machine learning</span>
+          <h1>Mialimanana Andrianina Bien&#8209;Aimé Razafindrakoto</h1>
+          <p class="role">Mathematician &amp; machine learning researcher</p>
+          <p class="affil">MSc in AI for Science (cum laude) · AIMS South Africa, Stellenbosch University</p>
+
+          <div class="hero-actions">
+            <a class="btn primary" href="cv_M_Andrianina_BA_Razafindrakoto.pdf" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 11l5 5 5-5M5 21h14"/></svg>
+              Download CV
+            </a>
+            <a class="btn" href="mailto:andrianinaba@gmail.com">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+              Email me
+            </a>
+          </div>
+
+          <ul class="social">
+            <li><a href="https://github.com/AndrianinaBA" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/mialimanana-razafindrakoto" target="_blank" rel="noopener">LinkedIn</a></li>
+            <!-- Add when available:
+            <li><a href="https://scholar.google.com/" target="_blank" rel="noopener">Google Scholar</a></li>
+            <li><a href="https://orcid.org/" target="_blank" rel="noopener">ORCID</a></li>
+            -->
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <!-- ===================== ABOUT ===================== -->
+      <section id="about">
+        <h2 class="section-title">About</h2>
+        <p>
+          I am a mathematician and machine learning researcher working at the intersection of pure
+          mathematics and modern statistical learning. My research centres on kernel methods and
+          non-parametric hypothesis testing, and on linking statistical learning to functional analysis.
+        </p>
+        <p>
+          I recently completed an MSc in AI for Science at the African Institute for Mathematical Sciences
+          (AIMS) South Africa, awarded <em>cum laude</em> with the support of a Google DeepMind Scholarship.
+          Before that, I completed a double Master's in Madagascar, in pure mathematics and in mathematics,
+          algorithmics, finance and computer science.
+        </p>
+        <p>
+          I am looking to pursue a PhD in machine learning, on research that connects mathematical theory
+          with emerging methods in machine learning and uncertainty quantification.
+        </p>
+      </section>
+
+      <!-- ===================== RESEARCH ===================== -->
+      <section id="research">
+        <h2 class="section-title">Research</h2>
+
+        <div class="chip-group">
+          <p class="chip-label">Interests</p>
+          <ul class="chips">
+            <li>Machine Learning &amp; Deep Learning</li>
+            <li>Kernel Methods</li>
+            <li>Non-parametric Hypothesis Testing</li>
+            <li>Data Science</li>
+            <li>Functional Analysis</li>
+            <li>Probability Theory</li>
+            <li>Abstract Algebra</li>
+          </ul>
+        </div>
+
+        <article class="card" style="margin-top: 32px;">
+          <h3>Quasi-Monte Carlo Methods for Kernel Quantile Embeddings
+            <span class="badge">Pass with Distinction</span></h3>
+          <p class="card-meta">
+            MSc thesis · AIMS South Africa research phase ·
+            Supervisor: <a href="https://www.krikamol.org/" target="_blank" rel="noopener">Dr. Krikamol Muandet</a>
+          </p>
+          <ul class="bullets">
+            <li>Addressed the computational limits of kernel-based hypothesis testing by integrating Quasi-Monte Carlo
+              (QMC) sampling, using Sobol’ and Halton sequences, into Kernel Quantile Embedding (KQE) methods, which
+              rely on standard Monte Carlo.</li>
+            <li>Developed and benchmarked QMC-based testing variants against established non-parametric tests,
+              including Maximum Mean Discrepancy (MMD) and KQE.</li>
+            <li>Improved statistical power by up to 20% over baseline methods, depending on dataset and sample size,
+              while maintaining controlled Type I error rates.</li>
+          </ul>
+
+          <div class="figures">
+            <figure>
+              <button class="fig-btn" type="button" data-full="assets/img/qmc-cifar-halton.jpg"
+                      data-caption="CIFAR datasets using Halton sequences">
+                <img src="assets/img/qmc-cifar-halton.jpg" loading="lazy" width="1600" height="908"
+                     alt="Rejection-rate curves comparing Monte Carlo and Quasi-Monte Carlo on CIFAR with Halton sequences">
+              </button>
+              <figcaption>CIFAR datasets, Halton sequences</figcaption>
+            </figure>
+            <figure>
+              <button class="fig-btn" type="button" data-full="assets/img/qmc-laplace-vs-gaussian.jpg"
+                      data-caption="Laplace vs Gaussian: rejection rate against sample size, Monte Carlo vs QMC">
+                <img src="assets/img/qmc-laplace-vs-gaussian.jpg" loading="lazy" width="1600" height="908"
+                     alt="Rejection rate versus number of samples for Laplace versus Gaussian, Monte Carlo against QMC">
+              </button>
+              <figcaption>Laplace vs Gaussian, Monte Carlo vs QMC</figcaption>
+            </figure>
+            <figure>
+              <button class="fig-btn" type="button" data-full="assets/img/qmc-mnist-sobol.jpg"
+                      data-caption="MNIST datasets using Sobol’ sequences">
+                <img src="assets/img/qmc-mnist-sobol.jpg" loading="lazy" width="1600" height="908"
+                     alt="Rejection-rate curves comparing Monte Carlo and Quasi-Monte Carlo on MNIST with Sobol sequences">
+              </button>
+              <figcaption>MNIST datasets, Sobol’ sequences</figcaption>
+            </figure>
+          </div>
+          <p class="hint">Click a figure to enlarge it.</p>
+
+          <div class="card-links">
+            <a class="btn" href="https://github.com/AndrianinaBA/AIMS-project-Quasi-Monte-Carlo-KQE" target="_blank" rel="noopener">View code on GitHub →</a>
+            <!-- Add the thesis / preprint when it is public:
+            <a class="btn" href="assets/thesis.pdf" target="_blank" rel="noopener">Read the thesis (PDF)</a>
+            -->
+          </div>
+        </article>
+
+        <!-- Publications: uncomment and fill in when you have some.
+        <h3 class="sub-title" style="margin-top: 40px;">Publications</h3>
+        <ul class="plain-list">
+          <li>
+            <span class="when">2026</span>
+            <p class="what">Author, A., <strong>Razafindrakoto, A.</strong> <em>Title of the paper.</em> Venue.
+              <a href="#">PDF</a> · <a href="#">arXiv</a></p>
+          </li>
+        </ul>
+        -->
+      </section>
+
+      <!-- ===================== EDUCATION ===================== -->
+      <section id="education">
+        <h2 class="section-title">Education</h2>
+        <ul class="timeline">
+          <li>
+            <span class="when">September 2025 – July 2026</span>
+            <h3>MSc in AI for Science <span class="badge">Cum laude</span></h3>
+            <p class="where">African Institute for Mathematical Sciences (AIMS) – Stellenbosch University, South Africa</p>
+            <p class="detail"><strong>Thesis:</strong> Quasi-Monte Carlo Methods for Kernel Quantile Embeddings.
+              <strong>Coursework:</strong> Evolution of Deep Learning, Mathematical Foundations of Machine Learning,
+              Machine Learning at Scale, Tensor Decomposition, Reinforcement Learning.</p>
+          </li>
+          <li>
+            <span class="when">January 2023 – September 2025</span>
+            <h3>Double MSc: Pure Mathematics · Mathematics, Algorithmics, Finance &amp; Informatics</h3>
+            <p class="where">University of Antananarivo, Ankatso, Madagascar</p>
+            <p class="detail"><strong>Coursework:</strong> Functional Analysis, Commutative Algebra, Number Theory,
+              Machine Learning, Cryptography &amp; Coding Theory, Complex Analysis, Differential Geometry.</p>
+          </li>
+          <li>
+            <span class="when">2022 – 2023</span>
+            <h3>Bachelor’s Degree in Pure Mathematics</h3>
+            <p class="where">University of Antananarivo, Ankatso, Madagascar</p>
+            <p class="detail"><strong>Coursework:</strong> Abstract Algebra, Measure Theory, Topology,
+              Numerical Analysis, Differential Calculus.</p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- ===================== PROJECTS ===================== -->
+      <section id="projects">
+        <h2 class="section-title">Selected projects</h2>
+        <div class="grid-2">
+          <article class="card project">
+            <h3>Recommender system with ALS</h3>
+            <p class="tech">Python · Machine Learning · Recommender systems</p>
+            <p>Built a recommender system using Alternating Least Squares for the <em>Machine Learning at Scale</em>
+              course of the AIMS AI for Science curriculum.</p>
+            <a class="more" href="https://github.com/AndrianinaBA/ml_at_scale" target="_blank" rel="noopener">View source on GitHub →</a>
+          </article>
+
+          <article class="card project">
+            <h3>SemEval Task 9: Polarization detection</h3>
+            <p class="tech">Python · NLP · LLMs</p>
+            <p>Developed polarization-detection systems for the subtasks of the SemEval competition, as part of the
+              <em>Natural Language Processing and LLMs</em> course of the AIMS AI for Science curriculum.</p>
+            <a class="more" href="https://github.com/AndrianinaBA/SemEVAL-subtask-9-Polarization-detection" target="_blank" rel="noopener">View source on GitHub →</a>
+          </article>
+        </div>
+      </section>
+
+      <!-- ===================== DISTINCTIONS ===================== -->
+      <section id="distinctions">
+        <h2 class="section-title">Awards &amp; schools</h2>
+        <div class="two-col">
+          <div>
+            <h3 class="sub-title">Awards &amp; honors</h3>
+            <ul class="plain-list">
+              <li><span class="when">2025 – 2026</span>
+                <p class="what">Google DeepMind Scholarship<span class="sub">MSc AI for Science, South Africa</span></p></li>
+              <li><span class="when">July 2026</span>
+                <p class="what">MSc awarded <em>cum laude</em><span class="sub">AIMS South Africa</span></p></li>
+              <li><span class="when">2026</span>
+                <p class="what">Thesis jury decision: Pass with Distinction</p></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="sub-title">Summer schools &amp; workshops</h3>
+            <ul class="plain-list">
+              <li><span class="when">2026</span>
+                <p class="what">GCI World 2026<span class="sub">Japan</span></p></li>
+              <li><span class="when">August 2026</span>
+                <p class="what">Deep Learning Indaba<span class="sub">Nigeria</span></p></li>
+              <li><span class="when">October 2025</span>
+                <p class="what">The Theory of Quantum Learning Algorithms<span class="sub">South Africa</span></p></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== SKILLS ===================== -->
+      <section id="skills">
+        <h2 class="section-title">Skills &amp; languages</h2>
+        <div class="two-col">
+          <div>
+            <h3 class="sub-title">Technical</h3>
+            <ul class="kv">
+              <li><strong>Programming</strong> <span>Python (NumPy, JAX, PyTorch, Pandas, SciPy), R, C</span></li>
+              <li><strong>Tools</strong> <span>LaTeX, Git / GitHub</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="sub-title">Languages</h3>
+            <ul class="kv">
+              <li><strong>Malagasy</strong> <span>Native</span></li>
+              <li><strong>English</strong> <span>Fluent</span></li>
+              <li><strong>French</strong> <span>Professional proficiency (DELF B2)</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== CONTACT ===================== -->
+      <section id="contact">
+        <div class="card contact-card">
+          <h2 style="margin: 0 0 12px; font-size: 1.6rem;">Get in touch</h2>
+          <p>I’m happy to discuss research, PhD opportunities and collaborations around kernel methods, hypothesis
+            testing and the mathematics of machine learning.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="mailto:andrianinaba@gmail.com">andrianinaba@gmail.com</a>
+            <a class="btn" href="mailto:andrianinaba@aims.ac.za">andrianinaba@aims.ac.za</a>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© <span id="year">2026</span> Mialimanana Andrianina Bien-Aimé Razafindrakoto · Last updated October 2026</p>
+    </div>
+  </footer>
+
+  <!-- Figure lightbox -->
+  <dialog class="lightbox" id="lightbox" aria-label="Enlarged figure">
+    <div class="lightbox-inner">
+      <button class="close" type="button" aria-label="Close">×</button>
+      <img id="lightbox-img" alt="">
+      <p class="cap" id="lightbox-cap"></p>
+    </div>
+  </dialog>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
